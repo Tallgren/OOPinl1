@@ -1,5 +1,6 @@
 import javax.swing.*;
 
+//Ärver av klassen växter
 public class Palm extends Växter {
 
     public Palm(String namn, double längd) {
@@ -7,6 +8,7 @@ public class Palm extends Växter {
         växtTyp = VäxtTyp.PALM;
     }
 
+    //Polymorfism
     @Override
     public void Print(Växter element) {
         double mängd = getMängdVätska(element);

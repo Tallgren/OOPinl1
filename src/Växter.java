@@ -1,8 +1,8 @@
-public abstract class Växter implements Interface {
+public abstract class Växter implements PrintVäxter {
 
     protected String namn;
-    double längd;
-    public VäxtTyp växtTyp;
+    protected double längd;
+    protected VäxtTyp växtTyp;
 
     public Växter(String namn, double längd) {
         this.namn = namn;
